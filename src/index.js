@@ -14,7 +14,7 @@ const httpLink = createHttpLink({
 });
 
 const wsLink = new WebSocketLink({
-  uri: `ws://snowtooth.moonhighway.com/graphql`,
+  uri: `wss://snowtooth.moonhighway.com/graphql`,
   options: {
     reconnect: true,
     lazy: true
