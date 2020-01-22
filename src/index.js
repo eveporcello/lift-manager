@@ -35,7 +35,8 @@ const client = new ApolloClient({
   link,
   cache,
   name: "lift-manager-web",
-  version: "1"
+  version: "1",
+  connectToDevTools: true
 });
 
 render(
